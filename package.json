@@ -1,0 +1,31 @@
+{
+  "name": "@steventripari/create-nodejs-cli",
+  "version": "0.0.1",
+  "description": "CLI to create Node.js CLIs",
+  "bin": {
+    "create-nodejs-cli": "index.js",
+    "ncli": "index.js"
+  },
+  "dependencies": {
+    "await-to-js": "^3.0.0",
+    "cli-alerts": "^1.2.2",
+    "cli-handle-error": "^4.4.0",
+    "cli-handle-unhandled": "^1.1.1",
+    "cli-meow-help": "^3.1.0",
+    "cli-should-cancel": "^1.0.3",
+    "cli-welcome": "^2.2.2",
+    "copy-template-dir": "^1.4.0",
+    "data-store": "^3.1.0",
+    "enquirer": "^2.3.6",
+    "execa": "^5.0.1",
+    "meow": "^9.0.0",
+    "ora": "^5.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.1"
+  },
+  "scripts": {
+    "format": "prettier --write \"./**/*.{js,json}\""
+  },
+  "repository": "steventripari/create-nodejs-cli"
+}
